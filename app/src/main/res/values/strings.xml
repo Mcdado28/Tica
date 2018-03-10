@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Auto škola Tica</string>
+
+
+    <string name="company_name">Auto škola Tica</string>
+    <string name="action_settings">Informacije</string>
+    <string name="app_version_info">1.0.5</string>
+    <string name="nav_item_postavke">Info o aplikaciji</string>
+    <string name="nav_item_preferencesa">Opšte informacije</string>
+    <string name="feedback_pref_title">Feedback</string>
+    <string name="feedback_pref_summary">Prijavite bug, podijelite vaše mišljenje o našoj aplikaciji.</string>
+    <string name="nav_cat_2">Aplikacija</string>
+    <string name="version_title">Verzija</string>
+    <string name="author_title">Autor</string>
+    <string name="author_info">Studis d.o.o</string>
+    <string name="pref_previously_started">prvo pokretanje</string>
+
+</resources>

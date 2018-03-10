@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <group android:id="@+id/navigation_group1"
+            android:checkableBehavior="single">
+
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_onama"
+            android:icon="@drawable/ic_onama_ikona"
+            android:title="O nama" />
+
+
+
+            <item
+                android:checked="true"
+                android:id="@+id/item_navigation_drawer_placanje"
+                android:icon="@drawable/ic_placanje"
+                android:title="Plaćanje" />
+
+
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_testovi"
+            android:icon="@drawable/ic_testovi"
+            android:title="Testovi" />
+
+
+
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_obuka"
+            android:icon="@drawable/ic_obuka"
+            android:title="Obuka" />
+
+
+            <item
+                android:checked="true"
+                android:id="@+id/item_navigation_drawer_rute"
+                android:icon="@drawable/ic_rute"
+                android:title="Rute" />
+
+            <item
+                android:checked="true"
+                android:id="@+id/item_navigation_drawer_upitnik"
+                android:icon="@drawable/ic_upitnik"
+                android:title="Upitnik" />
+
+
+            <item
+                android:checked="true"
+                android:id="@+id/item_navigation_drawer_instruktori"
+                android:icon="@drawable/ic_onama_ikona"
+                android:title="Instruktori" />
+
+
+
+
+         </group>
+
+        <group android:id="@+id/navigation_group2"
+            android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_navigation_drawer_galerija"
+            android:icon="@drawable/ic_galerija"
+            android:title="Galerija" />
+
+
+
+
+        <item
+            android:id="@+id/item_navigation_drawer_kontakt"
+            android:icon="@drawable/ic_kontakt"
+            android:title="Kontakt" />
+         </group>
+
+
+    <group android:id="@+id/navigation_group3"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_navigation_drawer_info"
+            android:icon="@drawable/ic_info"
+            android:title="Info o aplikaciji" />
+
+       </group>
+
+    </group>
+
+
+
+</menu>

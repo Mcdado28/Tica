@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <!-- Toolbar for Preferences Activity -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_amber_200"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/nav_item_postavke" />
+
+    <fragment
+        android:id="@+id/prefsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.autoskola.tica.autoskolatica.Preferences$Postavke"
+        tools:layout="@android:layout/simple_list_item_1" />
+
+
+</LinearLayout>

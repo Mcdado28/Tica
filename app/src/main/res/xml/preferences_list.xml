@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <PreferenceCategory android:title="@string/nav_cat_2">
+
+        <Preference
+            android:title="@string/app_name"
+            android:selectable="false"/>
+
+        <Preference
+            android:title="@string/version_title"
+            android:summary="@string/app_version_info"
+            android:selectable="false" />
+
+        <Preference
+            android:title="@string/author_title"
+            android:summary="@string/author_info"
+            android:selectable="false" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/nav_item_preferencesa">
+
+        <Preference
+            android:title="@string/feedback_pref_title"
+            android:key="feedback"
+            android:summary="@string/feedback_pref_summary"
+            android:selectable="true" />
+
+
+        <Preference
+
+            android:title="Svidja Vam se aplikacija?"
+            android:key="ocijeniapp"
+            android:summary="Ocijenite je na Play Store-u"
+            android:selectable="true" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

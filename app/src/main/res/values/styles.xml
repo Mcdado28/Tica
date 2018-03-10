@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Base.AppTheme">
+
+    </style>
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_yellow_600</item>
+        <item name="colorPrimaryDark">@color/md_yellow_800</item>
+        <item name="colorAccent">@color/md_black_1000</item>
+        <item name="colorControlHighlight">@color/md_indigo_50</item>
+        <item name="android:windowBackground">@color/md_white_1000</item>
+
+
+    </style>
+
+    <style name="ToolbarTheme" parent="AppTheme">
+        <item name="android:textColorPrimary">@android:color/background_dark</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+    <style name="NavigationViewTheme" parent="AppTheme">
+        <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="colorPrimary">@color/md_black_1000</item>
+    </style>
+
+</resources>
